@@ -1,0 +1,52 @@
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 450px 0px 450px;
+}
+
+.meio h1 {
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.meio img {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 113, 208, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.meio img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.seilaporra h2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn-cardapio {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background-color: #FF85A1;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.btn-cardapio:hover {
+    background-color: #dd617e;
+}

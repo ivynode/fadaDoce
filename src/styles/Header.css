@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&display=swap');
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 3rem;
+    background: #ffffffd9;
+    border-bottom: 3px solid #FFB7C5;
+    box-shadow: 0 4px 20px #ff85a126;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #4A3E4E;
+    text-decoration: none;
+    position: relative;
+    padding: 0.4rem 0.6rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FF85A1;
+}
+
+.menu ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
